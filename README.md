@@ -119,6 +119,68 @@ Waterfall is a linear, structured approach where each phase (Requirements → De
 
 ## 4. In what types of projects might Agile be more beneficial than Waterfall, and vice versa? Can you provide examples of each?
 ## 5. What are some methods for ensuring quality assurance throughout a software project? Why is it important to maintain high standards?
+Quality Assurance (QA) ensures that software is reliable, secure, and performs as expected before release. Poor QA can lead to bugs, security vulnerabilities, and system failures, resulting in financial losses, poor user experience, and reputational damage.
+
+Why Maintain High Standards?
+
+✅ Enhances user trust & satisfaction – Bug-free software improves usability.
+✅ Prevents costly fixes post-launch – Catching issues early saves time and money.
+✅ Ensures security & compliance – Reduces risk of data breaches.
+✅ Improves maintainability – Well-tested code is easier to update and scale.
+
+Methods for Ensuring Quality Assurance:
+🔹 1. Implement a Clear QA Process
+Define testing strategies early in development.
+Use Test Plans to outline what, when, and how testing will be conducted.
+Adopt QA best practices like Continuous Testing and DevOps integration.
+
+💡 Tip: Use Agile methodologies to test in each sprint, rather than waiting for the end.
+
+🔹 2. Automated Testing
+Automated tests ensure software functions correctly across multiple builds and reduce manual effort.
+
+Types of Automated Testing:
+✔ Unit Tests – Validate individual components (pytest, JUnit).
+✔ Integration Tests – Check how different modules work together.
+✔ Regression Tests – Ensure new changes don’t break existing features.
+
+💡 Tools: Selenium, Jest, Cypress, JUnit, PyTest
+
+🔹 3. Manual Testing & Exploratory Testing
+Some issues require human intuition and experience rather than automation.
+
+✔ Exploratory Testing – Testers try random actions to uncover unexpected bugs.
+✔ Usability Testing – Ensures software is user-friendly & intuitive.
+✔ Acceptance Testing – Ensures the software meets business requirements.
+
+💡 Example: Testing the CORE Centre website manually to check for navigation issues.
+
+🔹 4. Code Reviews & Peer Testing
+Developers review each other’s code to catch errors early.
+Encourages best coding practices and knowledge sharing.
+Use GitHub Pull Requests with assigned reviewers for feedback.
+
+💡 Tip: Follow a "Two-Person Rule" where no code gets merged without review.
+
+🔹 5. Performance & Security Testing
+Performance Testing – Ensures software runs smoothly under load.
+Tools: JMeter, LoadRunner
+Security Testing – Identifies vulnerabilities to prevent cyberattacks.
+Tools: OWASP ZAP, Burp Suite
+
+💡 Example: Simulating 1,000 users on a community services web portal to check server performance.
+
+🔹 6. Continuous Integration & Continuous Deployment (CI/CD)
+Automate builds, testing, and deployments for faster releases.
+Catch bugs before deployment with automated test pipelines.
+
+💡 Tools: GitHub Actions, Jenkins, CircleCI, TravisCI
+
+🔹 7. Maintain Detailed Documentation & Bug Tracking
+Use GitHub Issues & Project Boards to track bugs.
+Document test cases, known issues, and resolutions.
+Maintain a knowledge base for future debugging.
+
 ## 6. How does defining the project scope contribute to successful project planning? What is a Work Breakdown Structure (WBS), and why is it useful?
 ## 7. What are the benefits of developing a detailed project schedule, and how can Gantt charts assist in this process?
 ## 8. What are the core issues that your software aims to address? Why are these problems significant to your target audience?
